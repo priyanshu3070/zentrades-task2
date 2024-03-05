@@ -1,0 +1,60 @@
+/* loginDashboard.css */
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff; /* Fallback background color */
+  }
+  
+  input[type="checkbox"] {
+    margin: 25px 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ee5566;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ca3b4c
+  }
+  
+  button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #82aad5; /* Example focus style */
+  }
+  .forgetPassword {
+    color: white;
+    font: small;
+
+  }
+  .forgetPassword:hover {
+    color: #828384;
+  }
+  
